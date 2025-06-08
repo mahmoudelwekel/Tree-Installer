@@ -1,0 +1,7 @@
+1 - install the program "setup.exe"
+
+2 - open the file "SystemConfigurations.cmd"
+
+start the program from the desktop and login with :
+username = admin
+password = admin
