@@ -15,7 +15,7 @@ release contains the latest build of the application.
 | `setup.exe` | Bootstrapper — installs Tree and any missing prerequisites |
 | `Tree installer.msi` | The Tree application installer (launched by `setup.exe`) |
 | `SystemConfigurations.cmd` | Starts the SQL Server LocalDB instance Tree uses |
-| `DotNetFX472/` | .NET Framework 4.7.2 prerequisite (installed if missing) |
+| `DotNetFX451/` | .NET Framework 4.5.1 prerequisite (installed if missing) |
 | `SqlLocalDB2014/` | SQL Server 2014 Express LocalDB prerequisite (installed if missing) |
 | `How to install.txt` / `دليل تثبيت البرنامج.txt` | Short install guides (EN / AR) |
 
@@ -24,7 +24,7 @@ release contains the latest build of the application.
 - Windows 10 / 11 (or Windows Server)
 - Administrator rights (setup registers prerequisites and writes to *Program Files*)
 
-The required runtimes — **.NET Framework 4.7.2** and **SQL Server 2014 Express
+The required runtimes — **.NET Framework 4.5.1** and **SQL Server 2014 Express
 LocalDB** — are bundled here and installed automatically by `setup.exe` when they
 are not already present, so the installer works without an internet connection.
 
@@ -76,7 +76,7 @@ Windows وواجهته بالعربية.
 - نظام Windows 10 / 11
 - صلاحيات المسؤول (Administrator)
 
-تُثبَّت المتطلبات (.NET Framework 4.7.2 و SQL Server 2014 LocalDB) تلقائيًا
+تُثبَّت المتطلبات (.NET Framework 4.5.1 و SQL Server 2014 LocalDB) تلقائيًا
 بواسطة `setup.exe` إذا لم تكن موجودة، دون الحاجة إلى اتصال بالإنترنت.
 
 ### خطوات التثبيت
